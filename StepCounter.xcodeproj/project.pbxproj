@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5871F5F41F0B184C00BF18E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871F5F31F0B184C00BF18E6 /* AppDelegate.swift */; };
-		5871F5F61F0B184C00BF18E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871F5F51F0B184C00BF18E6 /* ViewController.swift */; };
 		5871F5F91F0B184C00BF18E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5871F5F71F0B184C00BF18E6 /* Main.storyboard */; };
-		5871F5FC1F0B184C00BF18E6 /* StepCounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5871F5FA1F0B184C00BF18E6 /* StepCounter.xcdatamodeld */; };
 		5871F5FE1F0B184C00BF18E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5871F5FD1F0B184C00BF18E6 /* Assets.xcassets */; };
 		5871F6011F0B184C00BF18E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5871F5FF1F0B184C00BF18E6 /* LaunchScreen.storyboard */; };
 		5871F60C1F0B184C00BF18E6 /* StepCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871F60B1F0B184C00BF18E6 /* StepCounterTests.swift */; };
 		5871F6171F0B184D00BF18E6 /* StepCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871F6161F0B184D00BF18E6 /* StepCounterUITests.swift */; };
+		5871F62E1F0C2DAC00BF18E6 /* SCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871F62D1F0C2DAC00BF18E6 /* SCHomeViewController.swift */; };
+		5871F6301F0C2DC700BF18E6 /* SCDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871F62F1F0C2DC700BF18E6 /* SCDetailViewController.swift */; };
+		5871F6321F0C327900BF18E6 /* SCHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871F6311F0C327900BF18E6 /* SCHomeTableViewCell.swift */; };
+		5871F6451F0C39C800BF18E6 /* SCUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871F6441F0C39C800BF18E6 /* SCUtility.swift */; };
+		58FAF8DD1F0CAE2500C56231 /* SCDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF8DC1F0CAE2500C56231 /* SCDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +39,22 @@
 
 /* Begin PBXFileReference section */
 		5871F5F01F0B184C00BF18E6 /* StepCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5871F5F31F0B184C00BF18E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5871F5F51F0B184C00BF18E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5871F5F31F0B184C00BF18E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		5871F5F81F0B184C00BF18E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5871F5FB1F0B184C00BF18E6 /* StepCounter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StepCounter.xcdatamodel; sourceTree = "<group>"; };
-		5871F5FD1F0B184C00BF18E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5871F5FD1F0B184C00BF18E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		5871F6001F0B184C00BF18E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5871F6021F0B184C00BF18E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5871F6021F0B184C00BF18E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		5871F6071F0B184C00BF18E6 /* StepCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5871F60B1F0B184C00BF18E6 /* StepCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterTests.swift; sourceTree = "<group>"; };
 		5871F60D1F0B184C00BF18E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5871F6121F0B184D00BF18E6 /* StepCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5871F6161F0B184D00BF18E6 /* StepCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterUITests.swift; sourceTree = "<group>"; };
 		5871F6181F0B184D00BF18E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5871F62D1F0C2DAC00BF18E6 /* SCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCHomeViewController.swift; sourceTree = "<group>"; };
+		5871F62F1F0C2DC700BF18E6 /* SCDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCDetailViewController.swift; sourceTree = "<group>"; };
+		5871F6311F0C327900BF18E6 /* SCHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCHomeTableViewCell.swift; sourceTree = "<group>"; };
+		5871F6441F0C39C800BF18E6 /* SCUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCUtility.swift; sourceTree = "<group>"; };
+		58FAF8DC1F0CAE2500C56231 /* SCDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,8 @@
 		5871F5F21F0B184C00BF18E6 /* StepCounter */ = {
 			isa = PBXGroup;
 			children = (
-				5871F5F31F0B184C00BF18E6 /* AppDelegate.swift */,
-				5871F5F51F0B184C00BF18E6 /* ViewController.swift */,
-				5871F5F71F0B184C00BF18E6 /* Main.storyboard */,
-				5871F5FD1F0B184C00BF18E6 /* Assets.xcassets */,
-				5871F5FF1F0B184C00BF18E6 /* LaunchScreen.storyboard */,
-				5871F6021F0B184C00BF18E6 /* Info.plist */,
-				5871F5FA1F0B184C00BF18E6 /* StepCounter.xcdatamodeld */,
+				5871F6271F0C2C9600BF18E6 /* Classes */,
+				5871F6291F0C2CDB00BF18E6 /* ApplicationResources */,
 			);
 			path = StepCounter;
 			sourceTree = "<group>";
@@ -126,6 +127,63 @@
 				5871F6181F0B184D00BF18E6 /* Info.plist */,
 			);
 			path = StepCounterUITests;
+			sourceTree = "<group>";
+		};
+		5871F6271F0C2C9600BF18E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5871F6431F0C39B300BF18E6 /* Utilities */,
+				5871F62A1F0C2D4400BF18E6 /* Controllers */,
+				5871F62C1F0C2D4400BF18E6 /* View */,
+				5871F6281F0C2C9A00BF18E6 /* AppDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5871F6281F0C2C9A00BF18E6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5871F5F31F0B184C00BF18E6 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5871F6291F0C2CDB00BF18E6 /* ApplicationResources */ = {
+			isa = PBXGroup;
+			children = (
+				5871F5F71F0B184C00BF18E6 /* Main.storyboard */,
+				5871F5FD1F0B184C00BF18E6 /* Assets.xcassets */,
+				5871F5FF1F0B184C00BF18E6 /* LaunchScreen.storyboard */,
+				5871F6021F0B184C00BF18E6 /* Info.plist */,
+			);
+			name = ApplicationResources;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5871F62A1F0C2D4400BF18E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5871F62D1F0C2DAC00BF18E6 /* SCHomeViewController.swift */,
+				5871F62F1F0C2DC700BF18E6 /* SCDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5871F62C1F0C2D4400BF18E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5871F6311F0C327900BF18E6 /* SCHomeTableViewCell.swift */,
+				58FAF8DC1F0CAE2500C56231 /* SCDetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5871F6431F0C39B300BF18E6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5871F6441F0C39C800BF18E6 /* SCUtility.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5871F5FC1F0B184C00BF18E6 /* StepCounter.xcdatamodeld in Sources */,
-				5871F5F61F0B184C00BF18E6 /* ViewController.swift in Sources */,
+				58FAF8DD1F0CAE2500C56231 /* SCDetailTableViewCell.swift in Sources */,
+				5871F6451F0C39C800BF18E6 /* SCUtility.swift in Sources */,
 				5871F5F41F0B184C00BF18E6 /* AppDelegate.swift in Sources */,
+				5871F62E1F0C2DAC00BF18E6 /* SCHomeViewController.swift in Sources */,
+				5871F6321F0C327900BF18E6 /* SCHomeTableViewCell.swift in Sources */,
+				5871F6301F0C2DC700BF18E6 /* SCDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +370,7 @@
 				5871F5F81F0B184C00BF18E6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		5871F5FF1F0B184C00BF18E6 /* LaunchScreen.storyboard */ = {
@@ -317,6 +379,7 @@
 				5871F6001F0B184C00BF18E6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -518,6 +581,7 @@
 				5871F61D1F0B184D00BF18E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5871F61E1F0B184D00BF18E6 /* Build configuration list for PBXNativeTarget "StepCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +590,7 @@
 				5871F6201F0B184D00BF18E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5871F6211F0B184D00BF18E6 /* Build configuration list for PBXNativeTarget "StepCounterUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,21 +599,9 @@
 				5871F6231F0B184D00BF18E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5871F5FA1F0B184C00BF18E6 /* StepCounter.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5871F5FB1F0B184C00BF18E6 /* StepCounter.xcdatamodel */,
-			);
-			currentVersion = 5871F5FB1F0B184C00BF18E6 /* StepCounter.xcdatamodel */;
-			path = StepCounter.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5871F5E81F0B184C00BF18E6 /* Project object */;
 }
